@@ -12,7 +12,7 @@ int user = 0;
 
 cout << "=========================\n";
 cout << "Rock, Paper, or Scissors?\n";
-cout << "==========================\n";
+cout << "=========================\n";
 
 cout << "1) Rock\n";
 cout << "2) Paper\n";

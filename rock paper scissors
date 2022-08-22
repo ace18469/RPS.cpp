@@ -1,0 +1,49 @@
+#include <iostream>
+#include <stdlib.h>
+using namespace std;
+
+int main() {
+
+srand (time(NULL));
+
+int computer = rand() % 3 + 1;
+int user = 0;
+
+
+cout << "=========================\n";
+cout << "Rock, Paper, or Scissors?\n";
+cout << "==========================\n";
+
+cout << "1) Rock\n";
+cout << "2) Paper\n";
+cout << "3) Scissors\n";
+
+cout << "SHOOT!!!\n";
+cout << "Your selection: \n";
+
+cin >> user;
+
+cout << "You selected: " << user << " and the computer selected " << computer << "\n";
+
+if (user == 1 && computer == 3 || user == 2 && computer == 1 || user == 3 && computer == 2){
+
+  cout << "You Win!!!\n";
+}
+
+else if (user == 1 && computer == 2 || user == 2 && computer == 3 || user == 3 && computer == 1) {
+
+  cout << "You Lose!!!\n";
+}
+
+else {
+
+  cout << "DRAW!!!\n";
+}
+
+
+
+
+
+
+
+}
